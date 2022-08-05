@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/tv_item_courier_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="快递员名"
+        android:layout_weight="5"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="5"
+        android:text="点击将快递分配给此快递员"/>
+
+</LinearLayout>
